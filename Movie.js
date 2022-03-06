@@ -28,6 +28,7 @@ function Movie(){
     },[]);
     return(
     <div> 
+      <button><Link to="/" style={{textDecoration:'none' }}>Home</Link></button>   
       {loading ? <h2>Loading...</h2> : 
        <div>
        <h1>
